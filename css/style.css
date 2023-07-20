@@ -1,0 +1,43 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+     
+}
+
+body{
+    position: relative;
+    top: 100px;
+    background: rgb(71, 126, 197);
+    text-align: center;
+   
+    
+}
+
+.pokedex {
+    width: 55%;
+    max-width: 400px;
+    
+}
+
+.charizard {
+    position: absolute;
+    top: 37%;
+    left: 47.3%;
+}
+
+.Pokemon__name{
+    position: absolute;
+    top: 57%;
+    left: 47%;
+    font-family: Andale Mono, monospace;
+    font-style: oblique;
+
+}
+.Pokemon__number{
+    position: absolute;
+    top: 10%;
+    left: 42.8%;
+    font-family: Andale Mono, monospace;
+    font-style: oblique;
+}
