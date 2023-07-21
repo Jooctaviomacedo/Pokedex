@@ -5,16 +5,51 @@
      
 }
 
+.menu{
+    border: 1px solid;
+    float: left;
+    background-color: #c43030;
+    width: 99.9%;
+
+
+}
+.menu ul, li{
+    display: inline;
+    padding: 10px;
+    width:30%;
+}
+.menu ul{
+    max-width: 800px;
+    list-style: none;
+    
+}
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+    
+    
+    }
+.menu li a{color:#33148a; text-decoration:none; padding:10px 20px;width: 30%; display: flexbox;}
+
+.menu li a:hover{
+background:#c43030;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #cccccc00;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #ffffff00;
+}
+
 body{
-    position: relative;
-    top: 100px;
-    background: rgb(71, 126, 197);
+    background: url(https://rare-gallery.com/thumbs/4548246-pokmon-pixel-art.png)no-repeat ;
+    background-size: 100% 1000px;
     text-align: center;
    
     
 }
 
 .pokedex {
+    padding: 50px 00px 0px 0px;
     width: 55%;
     max-width: 400px;
     
@@ -41,4 +76,4 @@ body{
     font-family: Andale Mono, monospace;
     font-style: oblique;
 }
-/*tentando a vida parte 20*/
+/*tentando a vida parte 50*/
